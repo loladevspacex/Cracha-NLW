@@ -120,7 +120,7 @@ body {
 }
 @media (max-width: 720px) {
   /* mobile */
-  .ribbon {
+  .cracha {
     display: none;
   }
   main {
@@ -137,7 +137,7 @@ body {
   }
 }
 .container {
-  /* margin, padding, border é box model! */
+
   max-width: 250px;
   margin-left: auto;
   margin-right: auto;
@@ -191,4 +191,31 @@ ul {
   display: flex; 
   gap: 0.5rem; 
   justify-content: center; 
+}
+.linkedin {
+  width: 40px;
+}
+.twitter {
+  width: 40px;
+}
+.spotify {
+  width: 40px;
+}
+.instagram {
+  width: 40px;
+}
+.linkedin:hover {
+  transform: scale(1.2);
+}
+.twitter:hover {
+  transform: scale(1.2);
+}
+.spotify:hover {
+  transform: scale(1.2);
+}
+.instagram:hover {
+  transform: scale(1.2);
+}
+.github:hover {
+  transform: scale(1.2);
 }

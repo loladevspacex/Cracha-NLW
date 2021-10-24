@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 720px) {
+  /*desktop */
+  main {
+    background: url(images/background.svg) no-repeat center/cover;
+    width: 22.375rem;
+    min-height: 33.75rem;
+    max-height: 650px;
+    position: relative;
+    margin-top: 4.5rem;
+  }
+  .cracha {
+    height: 10.25rem;
+    position: absolute;
+    z-index: 1;
+    top: -1.5rem;
+  }
+  body {
+    background: url(images/blurbg.svg) no-repeat center/cover;
+    background-color: rgba(0, 0, 0, 0.877);
+  }
+  .container {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.8rem;
+    color: white;
+  }
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .avatar > img {
+    width: 130px;
+    height: 130px;
+    left: 108px;
+    top: 184px;
+    object-fit: cover;
+    border-radius: 80px;
+  }
+  .github {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 295px;
+    top: 257px;
+  }
+  .avatar {
+    width: 10rem;
+    margin: 7.5rem auto 0;
+    position: relative;
+  }
+  .avatar span {
+    position: absolute;
+    top: -10px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    margin-top: 0.2rem;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+  }
+  p {
+    margin-top: 2rem;
+    color: white;
+  }
+  ul {
+    margin-top: 4rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  .linkedin {
+    width: 40px;
+  }
+  .twitter {
+    width: 40px;
+  }
+  .spotify {
+    width: 40px;
+  }
+  .instagram {
+    width: 40px;
+  }
+  .linkedin:hover {
+    transform: scale(1.2);
+  }
+  .twitter:hover {
+    transform: scale(1.2);
+  }
+  .spotify:hover {
+    transform: scale(1.2);
+  }
+  .instagram:hover {
+    transform: scale(1.2);
+  }
+  .github:hover {
+    transform: scale(1.2);
+  }
+}
+@media (max-width: 720px) {
+  /* mobile */
+  .ribbon {
+    display: none;
+  }
+  main {
+    background: url(images/background.svg) no-repeat center/cover;
+    width: 100vw;
+    min-height: 812px;
+    height: 100vh;
+  }
+  .avatar {
+    margin: 11.5rem auto 0;
+  }
+  ul {
+    margin-top: 4rem;
+  }
+}
+.container {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+h1 {
+  font-size: 1.8rem;
+  color: white;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.avatar > img {
+  width: 130px;
+  height: 130px;
+  left: 108px;
+  top: 184px;
+  object-fit: cover;
+  border-radius: 80px;
+}
+.github {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 295px;
+  top: 257px;
+}
+.avatar {
+  width: 10rem;
+  margin: 7.5rem auto 0;
+  position: relative;
+}
+.avatar span {
+  position: absolute;
+  top: -10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin-top: 0.2rem;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+}
+p {
+  margin-top: 2rem;
+  color: white;
+}
+ul {
+  margin-top: 4rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}

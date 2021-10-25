@@ -142,7 +142,7 @@ body {
   margin-right: auto;
   text-align: center;
 
-  color: gray;
+  color: white;
 }
 
 .avatar {
@@ -171,7 +171,7 @@ h1 {
 }
 
 a {
-  color: gray;
+  color:white;
   text-decoration: none;
   margin-top: 0.25rem;
   display: flex;
@@ -190,6 +190,13 @@ ul {
   display: flex; 
   gap: 0.5rem; 
   justify-content: center; 
+}
+.github {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 275px;
+  top: 332px;
 }
 .linkedin {
   width: 40px;

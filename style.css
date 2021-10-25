@@ -17,16 +17,16 @@ body {
   main {
     background: url(images/background.svg) no-repeat center/cover;
     width: 22.375rem;
-    min-height: 33.75rem;
+    min-height: 38.75rem;
     max-height: 650px;
     position: relative;
-    margin-top: 4.5rem;
+    margin-top: 3.0rem;
   }
   .cracha {
     height: 10.25rem;
     position: absolute;
     z-index: 1;
-    top: -1.5rem;
+    top: -3.0rem;
   }
   body {
     background: url(images/blurbg.svg) no-repeat center/cover;
@@ -47,19 +47,18 @@ body {
     text-decoration: none;
   }
   .avatar > img {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     left: 108px;
     top: 184px;
-    object-fit: cover;
-    border-radius: 80px;
+    border-radius: 100px;
   }
   .github {
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 295px;
-    top: 257px;
+    left: 275px;
+    top: 332px;
   }
   .avatar {
     width: 10rem;
@@ -163,7 +162,7 @@ body {
   width: 10rem;
   height: 11.5rem;
   object-fit: cover; 
-   border-radius: 80px;
+ border-radius: 80px;
 }
 
 h1 {

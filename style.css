@@ -192,11 +192,11 @@ ul {
   justify-content: center; 
 }
 .github {
-  position: absolute;
+  position: relative;
   width: 25px;
   height: 25px;
-  left: 275px;
-  top: 332px;
+  left: 110px;
+  top: -33px;
 }
 .linkedin {
   width: 40px;

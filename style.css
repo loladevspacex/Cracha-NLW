@@ -53,13 +53,7 @@ body {
     top: 184px;
     border-radius: 100px;
   }
-  .github {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 275px;
-    top: 332px;
-  }
+
   .avatar {
     width: 10rem;
     margin: 7.5rem auto 0;
@@ -99,6 +93,9 @@ body {
     width: 40px;
   }
   .instagram {
+    width: 40px;
+  }
+  .github {
     width: 40px;
   }
   .linkedin:hover {
@@ -141,7 +138,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-   color: white;
+
+  color: white;
 }
 
 .avatar {
